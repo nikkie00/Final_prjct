@@ -1,0 +1,118 @@
+img {
+	width: 100%;
+}
+.about_container {
+	margin: 0 auto;
+    width: 88%;
+}
+
+.about_title_box {
+	text-align: center;
+	padding: 40px;
+}
+
+.about_title {
+	font: 30px  'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+}
+.about_title::after  {
+	display: block;
+  	width: 60px;
+  	content: '';
+  	position: absolute;
+  	border-bottom: 3px solid #f38181;
+  	bottom: -60%;
+    right: 48%;
+}
+
+.small_title {
+	font: 24px 'Kaushan Script', cursive;
+}
+.text_after {
+	padding: 60px 0 40px;
+	font-family: 'Roboto', sans-serif;
+	color: #999999;
+	line-height: 24px;
+}
+
+.about_gallery {
+	text-align: center;
+	position: relative;
+	padding: 0 50px 50px;
+}
+.about_gallery_item {
+	position: relative;
+	width: 30.33%;
+	display: inline-block;
+	padding-right: 20px;
+}
+@media screen and (max-width: 968px) {
+	.about_gallery_item{
+	width: 100%;
+	padding-top: 20px;
+}
+	.about_footer_item span.about_footer_number {
+	font: 36px 'Montserrat', sans-serif;
+	}
+	div.about_footer_item {
+		display:inline-block;
+		padding:10px;
+
+	}
+}
+.block {
+	width: 96%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+    left:0;
+	background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+	display: none;
+	-webkit-box-shadow: 10px 12px 0px 0px rgba(149,225,211,1);
+	-moz-box-shadow: 10px 12px 0px 0px rgba(149,225,211,1);
+	box-shadow: 10px 12px 0px 0px rgba(149,225,211,1);
+}
+.about_gallery_item:hover .block{
+	display: block;
+}
+.block_text {
+	padding: 5px;
+	position: relative;
+	top: 45%;
+	font: 18px 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+.block_text::before{
+	content: url('/images/about/users.png');
+	position: absolute;
+	top: -33px;
+	left: 50px;
+}
+.about_footer {
+	background: #95e1d3;
+	text-align: center;
+	font-size: 0;
+}
+.about_footer_item{
+	display: inline-block;
+	border: 1px solid rgba(255,255,255, 0.3);
+	width: 180px;
+	padding: 65px 0 98px;
+
+}
+
+span.about_footer_number {
+	color: white;
+	font: 72px 'Montserrat', sans-serif;
+}
+p.about_footer_text {
+	font: 14px 'Montserrat';
+	color: white;
+	text-transform: uppercase;
+}
+

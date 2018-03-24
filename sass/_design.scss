@@ -1,0 +1,70 @@
+
+.bg_overlay {
+	width: 100%;
+    height: 850px;
+    background: rgba(255,255,255,0.8);
+    z-index: 1;
+}
+
+.design_container {
+	position: relative;
+	background-image: url('/images/design/layer-design.png');
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+
+.design_title_box {
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+}
+.design_title {
+	font: 30px 'Montserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.design_title::after {
+	display: block;
+  	width: 60px;
+  	content: '';
+  	position: absolute;
+  	border-bottom: 3px solid #f38181;
+  	bottom: -40%;
+    right: 48%
+}
+.design_pics {
+	position: relative;
+
+}
+.design_tablet {
+	width: 477px;
+	height: 650px;
+}
+.design_phone {
+	height: 476px;
+	width: 274px;
+}
+
+.image_tablet {
+	position: relative;
+    bottom: -98px;
+    left: 30%;
+}
+
+.image_phone {
+	position: relative;
+	bottom: 300px;
+    left: 57%;
+}
+@media screen and (max-width: 715px) {
+	figure.image_tablet {
+		display:none;
+	}
+	figure.image_phone {
+	margin-top: 24%;
+    position: relative;
+    bottom: -12%;
+    left: 32%;
+	}
+}

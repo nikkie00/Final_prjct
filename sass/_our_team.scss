@@ -1,0 +1,115 @@
+.our_team_title_box {
+	text-align: center;
+	padding: 40px 40px 20px;
+}
+.our_team_title {
+	font: 30px 'Monserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+}
+.our_team_title::after {
+	display: block;
+  	width: 60px;
+  	content: '';
+  	position: absolute;
+  	top: 147%;
+    left: 48%;
+  	border-bottom: 3px solid #f38181;
+  	
+}
+.our_team_text {
+	width:75%;
+	padding: 6% 12% 0;
+	line-height: 24px;
+	font: 15px 'Roboto';
+	color: #999999;
+}
+.team_gallery_item {
+	position: relative;
+	width: 25%;
+	display: inline-block;
+	padding-right: 20px;
+}
+@media screen and (max-width: 968px) {
+	.team_gallery_item  {
+		display: inline-block;
+		width: 50%;
+		padding-bottom: 30px;
+	}
+}
+.team_gallery {
+	padding: 40px;
+	text-align: center;
+}
+.team_name {
+	font: 15px 'Roboto';
+	color: #999999;
+	font-style: italic;
+	line-height: 24px;
+	padding-top: 20px;
+
+}
+.bold_name {
+	font: 14px 'Moserrat';
+	color: #333333;
+	text-transform: uppercase;
+}
+
+.block_list{
+	position: absolute;
+	width: 94%;
+    height: 86%;
+	top: 0;
+    left:0;
+	background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+	display: none;
+	-webkit-box-shadow: 15px 12px 0px 0px rgba(149,225,211,1);
+	-moz-box-shadow: 15px 12px 0px 0px rgba(149,225,211,1);
+	box-shadow: 15px 12px 0px 0px rgba(149,225,211,1);
+}
+
+.team_gallery_item:hover .block_list {
+	display: block;
+}
+.block_list_item {
+	position: relative;
+	top: 42%;
+    left: 25%;
+   display: block;
+   float: left;
+   padding: 1px;
+   margin-right: 2px;
+   height: 40px;
+   width: 40px;
+   background-color: #fce38a;
+   border: 1px #f38181;
+   vertical-align: middle;
+}
+.block_list_item:hover {
+	background-color:#f9b8b8;
+
+}
+
+.bloc_pic {
+	position: absolute;
+	top: 28%;
+    left: 34%;
+	width: 20px;
+	height: 22px;
+}
+.trade_marks {
+	height: 2%;
+	background-color: #f8f8f8;
+	margin-top: 60px;
+
+}
+.company_list {
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.company_pic {
+	display: inline-block;
+
+}

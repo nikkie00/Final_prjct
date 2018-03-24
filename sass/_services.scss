@@ -1,0 +1,63 @@
+
+
+.services_title_box {
+	text-align: center;
+	padding: 40px;
+}
+
+.services_title {
+	position: relative;
+	font: 30px 'Montserrat';
+	font-weight: bold;
+}
+.services_title::after{
+	display: block;
+  	width: 60px;
+  	content: '';
+  	position: absolute;
+  	border-bottom: 3px solid #f38181;
+  	bottom: -60%;
+    right: 47%;
+}
+
+.service_list {
+	width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 70px;
+}
+.service_list_item {
+	width: 25%;
+	height: 20%;
+	display: inline-block;
+	padding: 0 35px 25px;
+}
+@media screen and (max-width: 968px) {
+	.service_list_item {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+
+	}
+}
+
+.service_list_item_title {
+	font: 14px 'Montserrat';
+	text-transform: uppercase;
+}
+.service_list_item_text {
+ font: 15px 'Roboto', sans-serif; 
+}
+.service_list_pic {
+	width: 32px;
+	height: 32px;
+	position: relative;
+    top: 38px;
+    right: 50px;
+}
+.row_one::after {
+	display: block;
+  	width: 95%;
+  	content: '';
+  	border-bottom: 1px solid #e5e5e5;
+
+}

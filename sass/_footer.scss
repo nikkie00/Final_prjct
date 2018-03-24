@@ -1,0 +1,299 @@
+
+
+.map_overlay {
+	height: 200px;
+	background: rgba(255, 255, 255, 0.85);
+    z-index: 1;
+}
+.map {
+	background: url('/images/footer/bg_map.png');
+	height: 200px;
+	position: relative;
+	background-repeat: no-repeat;
+	z-index: -1;
+	text-align: center;
+}
+.map_title {
+	position: relative;
+	top: 45%;
+	font: 24px 'Monserrat';
+	font-weight: bold;
+	color: #f38181;
+	text-transform: uppercase;
+}
+
+.map_title::before {
+	content: url('/images/footer/pin-2.png');
+	position: absolute;
+	top: -111%;
+    right: 45%;
+}
+.map_title::after {
+	display: block;
+  	width: 60px;
+  	content: '';
+  	position: absolute;
+  	border-bottom: 3px solid #f38181;
+  	bottom: -60%;
+    right: 30%;
+} 
+.contacts {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+@media screen and (max-width: 968px) {
+	.contacts {
+		margin: 20px auto;
+		display: inline-block;
+		padding: 0 60px;
+		text-align: center;
+
+	}
+	div.contacts_info {
+		display: inline-block;
+		width: 100%;	
+		margin: 0 auto;
+		padding: 0;
+	}
+	.contacts_title {
+		text-align: center;
+	}
+	div.follower_number {
+		text-align: center;
+		font: 20px 'Monserrat';
+	}
+	div.social_media_list {
+		text-align: center;
+		padding: 10px;
+	}
+	form.subscribe {
+		position: relative;
+		left: 0;
+	}
+
+	.footer_blogs {
+		margin: 0 auto;
+		width: 80%;
+		padding: 0;
+	}
+	.footer_blogs_title {
+		text-align: center;
+		padding: 0;
+	}
+	.footer_blogs_list_item {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.footer_instagram {
+		display: inline-block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.gallery_instagram {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.footer_instagram_title {
+		text-align: center;
+		padding: 0;
+	}
+}
+.contacts_block {
+	background-color: #f8f8f8; 
+}
+.contacts_info {
+	width: 35%;
+	padding: 60px 0;
+}
+.clearfix::after,
+.aside,
+.contacts_info,
+.blogs_list_pic,
+.footer_blogs_list_item {
+content: '';
+clear: both;
+display: table;
+overflow: hidden;
+}
+.contacts_title {
+	font: 46px 'Monserrat';
+	color: #cccccc;
+	font-weight: bold;
+}
+.contacts_text {
+	font: 15px 'Roboto';
+	line-height: 24px;
+	padding: 10px 10px 10px 0
+}
+.follower_number {
+	font: 14px 'Monserrat';
+	color: #333333;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 0;
+}
+.number_bold {
+	font: 18px 'Monserrat';
+	font-weight: bold;
+}
+
+.social_media_pic {
+	width: 16px;
+	height: 15px;
+	padding: 0 5px;
+}
+.social_media_list {
+    padding: 10px 0
+}
+.social_media_list_item {
+	display: inline-block;
+}
+.social_media_list_item:hover {
+	 -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.social_media_list::before {
+	content: 'Follow Us:';
+	font: 15px 'Roboto';
+	color: #999999;
+	font-style: italic;
+}
+.footer_blogs,
+.footer_instagram {
+	padding-top: 30px;
+}
+.subscribe {
+	padding-top: 18px;
+}
+.subscribe_line {
+	height: 38px;
+	width: 230px;
+}
+.subscribe_line[placeholder]{
+	font: 15px 'Roboto';
+	font-style: italic;
+	padding-left: 13px;
+	color: #cccccc;
+	position: relative;
+	background: white;
+}
+/* .subscribe_line:focus {
+	border: 1px solid  #95e1d3;
+	background: #e1f2ef;
+} */
+.subscribe_button {
+	width: 150px;
+	height: 47px;
+	background: #95e1d3;
+	color: white;
+	font: 14px 'Monserrat';
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	position: relative;
+	left: -4px;
+	top: -1px;
+
+}
+.footer_blogs_list_item{
+	padding: 18px 10px 0 0;
+}
+.footer_blogs_list_item:hover{
+ -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.blogs_list_pic {
+	width: 119px;
+	height: 79px;
+	float: left;
+	padding-right: 10px;
+}
+.blogs_list_item_block {
+	margin-top: 10px;
+}
+.blogs_list_item_text {
+	font: 12px 'Roboto';
+	font-style: italic;
+	line-height: 24px;
+	color: #999999;
+}
+
+.blogs_list_item_link {
+	font: 12px 'Monserrat';
+	color: #333333;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.blogs_list_item_link:hover {
+	color: #f38181;
+	border-bottom: 1px solid #f38181;
+}
+.footer_blogs_title {
+	font: 14px 'Monserrat';
+	color: #333333;
+	text-transform: uppercase;
+	padding: 30px 0 30px 0;
+}
+.instagram_item_pic {
+	width: 88px;
+	height: 88px;
+}
+.footer_instagram_title {
+	font: 14px 'Monserrat';
+	color: #333333;
+	text-transform: uppercase;
+	padding: 30px 0 30px 0;
+}
+.gallery_instagram {
+	width: 270px;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 0;
+	padding-top: 20px;
+
+}
+.gallery_instagram_item {
+		padding: 1px;
+}
+.gallery_instagram_item:hover {
+-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.more_photos a {
+	font: 13px 'Roboto';
+	font-style: italic;
+	line-height: 24px;
+	padding: 5px;
+}
+.more_photos a {
+	color: #333333;
+}
+.more:hover {
+	color: #f38181;
+}
+
+.copyrights {
+	text-align: center;
+	padding: 40px;
+	font: 14px 'Monserrat';
+	color: #333333;
+}
+.copyrights::before {
+	content: '©';
+	left: 2px;
+}
+.creators_name {
+	color: #f38181;
+}
+.creators_name:hover {
+	color: red;
+}
+.line {
+	width: 85%;
+	border-bottom: 1px solid #e5e5e5;
+	margin-left: 5%;
+	padding-top: 10px;
+}
