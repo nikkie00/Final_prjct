@@ -147,20 +147,20 @@ overflow: hidden;
 } 
 }
 .photo::before {
-	content: url('/images/what_we_do/photo.png');
+	content: url('images/what_we_do/photo.png');
 	position: relative;
 	top: 10px;
 	right: 10px;
 }
 
 .creativity::before {
-	content: url('/images/what_we_do/creativity.png');
+	content: url('images/what_we_do/creativity.png');
 	position: relative;
 	right: 10px;
 	top: 10px;
 }
 .web-design::before {
-	content: url('/images/what_we_do/web_design.png');
+	content: url('images/what_we_do/web_design.png');
 	position: relative;
 	right: 14px;
 	top: 10px;

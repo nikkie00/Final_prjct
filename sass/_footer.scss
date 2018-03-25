@@ -6,7 +6,7 @@
     z-index: 1;
 }
 .map {
-	background: url('/images/footer/bg_map.png');
+	background: url('images/footer/bg_map.png');
 	height: 200px;
 	position: relative;
 	background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .map_title::before {
-	content: url('/images/footer/pin-2.png');
+	content: url('images/footer/pin-2.png');
 	position: absolute;
 	top: -111%;
     right: 45%;

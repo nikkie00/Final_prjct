@@ -94,12 +94,12 @@
 	font-style: italic;
 }
 .blog_views::before {
-	content: url('/images/latest_blog/view.png');
+	content: url('images/latest_blog/view.png');
 	position: relative;
 	left: -5px;
 }
 .blog_comments::before {
-	content: url('/images/latest_blog/speech-bubble-2.png');
+	content: url('images/latest_blog/speech-bubble-2.png');
 	position: relative;
 	left: -7px;
 	top: 3px;
