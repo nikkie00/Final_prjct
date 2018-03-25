@@ -290,14 +290,21 @@ background-image: url(../images/design/layer-design.png)
 
 .bottom_sliders {
     margin: 0 auto;
-    padding: 70px;
+    display: inline-flex;
+    margin: 50px;
 }
-
-.slider {
-    width: 180px;
+.slider_header_bold {
+    font-weight: bold;
+     font: 18px 'Montserrat';
 }
 
 .header_parts {
     display: inline;
     padding: 10px;
+    margin-right: 15px;
+    width: 180px;
+    border-top: 3px solid white;
+    color: white;
+    font: 14px 'Montserrat';
+    text-transform: uppercase;
 }
